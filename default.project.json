@@ -1,0 +1,38 @@
+{
+    "name": "Movement System Test",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedFirst": {
+            "$path": "src/first",
+            "$ignoreUnknownInstances": true
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Modules": {
+                "$className": "Folder",
+                "ClientModules": {
+                    "$className": "Folder",
+                    "$path": "src/Modules/ClientModules"
+                },
+                "SharedModules": {
+                    "$className": "Folder",
+                    "$path": "src/Modules/SharedModules"
+                }
+            },
+            "$ignoreUnknownInstances": true
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$path": "src/server"
+        },
+        "StarterPlayer" : {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$path": "src/client",
+                "$ignoreUnknownInstances": true
+            },
+            "$ignoreUnknownInstances": true
+        },
+        "$ignoreUnknownInstances": true
+    }
+}
