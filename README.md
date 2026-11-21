@@ -20,6 +20,6 @@ I had a "two-phase initialization" system for both my server and client systems:
 
 ## Systems
 
-- [Movement system w/ sprinting + double-jump](src/Modules/Client/MovementController.luau)
-- [Stamina that depletes when sprinting](src/Modules/Client/StaminaSystem.luau)
-- [Camera w/ sprinting fov change](src/Modules/Client/CameraController.luau)
+- [Movement system w/ sprinting + double-jump](src/Modules/ClientModules/MovementController.luau)
+- [Stamina that depletes when sprinting](src/Modules/ClientModules/StaminaSystem.luau)
+- [Camera w/ sprinting fov change](src/Modules/ClientModules/CameraController.luau)
